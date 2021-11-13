@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-let element = <h1>Hello world</h1>
+let element = <h1>Hello world and Boy</h1>
 
 ReactDOM.render(
   <React.StrictMode>
