@@ -3,9 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+let element = <h1>Hello world</h1>
 
 ReactDOM.render(
   <React.StrictMode>
+    {element}
     <App />
   </React.StrictMode>,
   document.getElementById('root')
